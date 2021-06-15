@@ -1,0 +1,167 @@
+/* Setting fade transition and default settings */
+body {
+  color: #000;
+  background-color: #f4f4f4;
+  transition: background-color 1s ease;
+  animation: fadeIn 2s;
+}
+
+/* Navbar Styles */
+.navbar {
+  font-family: 'Dosis', sans-serif;
+  padding: 0.8rem 5rem;
+  /* Seperate brand and items */
+  justify-content: space-between;
+}
+
+/* panel styles */
+.panel {
+  /* min height incase content is higher than window height */
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Dosis', sans-serif;
+  /* outline: 10px solid hotpink; */
+  /* turn above on to see the edge of panels */
+}
+
+/* About Panel */
+.about-me-p {
+  text-align: center;
+  padding: 2rem;
+}
+
+.emoji {
+  height: 200px;
+  border: 5px solid #c2c2c2;
+  border-radius: 100%;
+  margin: auto auto 5rem;
+}
+
+.video-player {
+  margin: 0 auto;
+  border: 10px outset #67e083;
+  border-radius: 2%;
+}
+
+.speaker-vid {
+  margin-top: 4rem;
+}
+
+.halo-vid {
+  margin-bottom: 4rem;
+}
+
+/* Experience Panel */
+.logo-pic {
+  height: 8rem;
+  border-radius: 60%;
+  border: 5px solid #c2c2c2;
+}
+
+.carousel-item {
+  text-align: center;
+  border-color: #57b2f2;
+}
+
+/* Education Panel */
+.comp-sci-pic {
+  height: 150px;
+  border-radius: 7%;
+  float: right;
+  margin: 1rem;
+}
+
+
+
+/* colours */
+.color-violet {
+  background-color: #aa7ff5;
+}
+
+.color-indigo {
+  background-color: #4332CF;
+}
+
+.color-blue {
+  background-color: #2F8FED;
+}
+
+.color-green {
+  background-color: #38c95f;
+}
+
+.color-yellow {
+  background-color: #FAEB33;
+}
+
+.color-orange {
+  background-color: #F19031;
+}
+
+.color-red {
+  background-color: #F2293A;
+}
+
+/* Text Styling */
+body {
+  text-align: center;
+  font-size: 120%;
+  line-height: 1.618;
+}
+
+h1, h2 {
+  font-size: 3em;
+  letter-spacing: -0.05em;
+  line-height: 1.1;
+  background: -webkit-linear-gradient(#ffffff, #f7f7f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  max-width: 30em;
+  margin: 1.618em;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+a {
+  color: #4332CF;
+}
+
+hr {
+  border-radius: 90%;
+  height: 2px;
+  width: 4rem;
+  background-color: #f7f7f7;
+}
+
+.bg-image p {
+  color: #f5f5f7;
+}
+
+/* Background Image */
+.bg-image {
+  background-image: url("../images/lake.jpg");
+  background-size: cover;
+}
+
+/* Footer */
+#footer.panel {
+  min-height: 30vh;
+  height: 100px;
+  background-color: #edeff0;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
