@@ -114,6 +114,10 @@ body {
   margin: 1rem;
 }
 
+/* Hobbies Panel */
+/* .hobbies-p {
+  margin: auto 3rem;
+} */
 
 
 /* colours */
@@ -203,10 +207,21 @@ hr {
 /* Mobile Config */
 
 @media only screen and (max-width: 480px){
-  body {
-    position: fixed;
+  body{
+    position: absolute;
   }
   .panel{
-    min-height: 80vh;
+    margin: 3rem auto;
   }
+
 }
+
+/* @media only screen and (max-width: 1155px){
+  .speaker-vid {
+    margin-top: auto;
+  }
+
+  .halo-vid {
+    margin-bottom: auto;
+  }
+} */
