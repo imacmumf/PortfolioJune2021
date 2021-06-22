@@ -203,11 +203,10 @@ hr {
 /* Mobile Config */
 
 @media only screen and (max-width: 480px){
-  /* p {
-    font-size: 3rem;
+  body {
+    position: fixed;
   }
-  h1, h2{
-    font-size: 5rem;
-  } */
-
+  .panel{
+    min-height: 80vh;
+  }
 }
