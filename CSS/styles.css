@@ -6,6 +6,10 @@ body {
   animation: fadeIn 2s;
 }
 
+.wrapper {
+  overflow-x: hidden;
+}
+
 /* Navbar Styles */
 .navbar {
   font-family: 'Dosis', sans-serif;
@@ -115,9 +119,14 @@ body {
 }
 
 /* Hobbies Panel */
-/* .hobbies-p {
-  margin: auto 3rem;
-} */
+.hobbies-panel {
+  display: inline;
+}
+
+p.hobbies-p{
+  max-width: none;
+}
+
 
 
 /* colours */
@@ -213,13 +222,3 @@ hr {
   }
 
 }
-
-/* @media only screen and (max-width: 1155px){
-  .speaker-vid {
-    margin-top: auto;
-  }
-
-  .halo-vid {
-    margin-bottom: auto;
-  }
-} */
